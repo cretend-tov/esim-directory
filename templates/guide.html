@@ -1,0 +1,5 @@
+{% extends "base.html" %}{% block body %}
+<h1>{{ g.title }}</h1><p>대상: {{ g.country }} · 증상: {{ g.problem }} · 확인일 {{ g.verified_on }}</p>
+<p class="note">📌 <a href="{{ root }}/disclosure/">제휴 고지</a>가 적용됩니다.</p>
+{{ g.html | safe }}
+{% endblock %}

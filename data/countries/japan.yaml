@@ -1,0 +1,58 @@
+country: 일본
+flag: 🇯🇵
+title: "일본 eSIM 비교 (Airalo · Saily · Holafly)"
+description: "일본 여행 eSIM 3사 가격·데이터·통신망(소프트뱅크/KDDI)·환불 규정을 공식 사이트 기준으로 비교합니다. 2026-10-22 확인."
+verified_on: "2026-10-22"
+intro: |
+  일본에서 쓸 수 있는 대표 여행 eSIM 3곳을 **각 사 공식 일본 페이지에 표시된 정보만으로** 비교했습니다.
+  가격은 2026년 10월 22일(KST)에 확인한 USD 표시가이며, 접속 지역·통화·프로모션에 따라 다르게 보일 수 있습니다.
+providers:
+  - key: airalo
+    name: Airalo
+    price: "무제한: 3일 $11.50 · 5일 $17.00 · 7일 $26.50 · 10일 $34.50 · 15일 $48.00 · 30일 $69.00"
+    data: "무제한 요금제 확인. 정액(Fixed data) 요금제도 있다고 표시되나 가격은 이번에 확인 못 함"
+    network: "SoftBank (+ 1개 추가 망, 이름 미확인)"
+    refund: "**미확인** — 일본 페이지에 환불 규정 없음. 공식 도움말 센터 확인 필요"
+    device_notes: "eSIM 지원 기기 필요(공식 호환성 목록 확인). 출국 전 설치 가능, 커버리지 밖에서 미리 연결해 두면 도착 즉시 사용. 다수 경우 충전(top-up) 가능, 잔여 10%에서 자동 갱신 옵션"
+    sources: ["https://www.airalo.com/japan-esim"]
+  - key: saily
+    name: Saily
+    price: "1GB/7일 $3.99 · 3GB/30일 $7.99 · 5GB/30일 $10.99 · 10GB/30일 $17.99 · 20GB/30일 $24.99 · 무제한 15일 $48.99 (공식 FAQ: 무제한 30일 $71.99)"
+    data: "정액 1~20GB, 또는 무제한(하루 5GB 고속 후 최대 1Mbps)"
+    network: "KDDI, SoftBank (4G/LTE·5G)"
+    refund: "**미확인** — 일본 페이지 비교표에 'Refunds' 항목만 있고 조건은 표시 안 됨"
+    device_notes: "공식 안내상 대략 2018년 이후 기기(iPhone XS+, Galaxy S20+, Pixel 3+). 통신사 잠금 기기는 안 될 수 있음. 구매 후 180일 내 미개통 시 자동 개통. 현지 도착 시 자동 활성화 — 로밍 켜야 함. 핫스팟 가능"
+    sources: ["https://saily.com/esim-japan/"]
+  - key: holafly
+    name: Holafly
+    price: "무제한: 3일 $11.90 · 5일 $20.50 · 7일 $27.50 · 10일 $36.50 · 15일 $50.50 · 30일 $73.90"
+    data: "무제한(데이터 전용, 전화번호 없음). 테더링은 하루 1GB까지. 통신사 공정사용정책으로 최대 1일 감속 가능"
+    network: "KDDI / SoftBank (5G 가능 지역, 4G/LTE)"
+    refund: "공식 FAQ: 호환성 미확인 구매, 여행 취소·불필요, 연결 문제 시 전액 또는 부분 환불 요청 가능. 승인 후 3~5영업일. 세부는 환불 정책 문서 참조"
+    device_notes: "설치 후 다른 기기로 이전·재설치 불가(삭제 시 재구매). 앱 자동 설치는 iOS/iPadOS 17.4 이상. 도착 후 데이터 로밍 켜야 함"
+    sources: ["https://esim.holafly.com/esim-japan/"]
+body: |
+  ## 어떤 걸 고를까 (공식 정보 기준 요약)
+
+  - **데이터를 적게 쓰고 싸게**: 정액 요금제가 공개된 곳은 Saily(1GB $3.99부터).
+  - **무제한, 짧은 일정**: 3일 기준 Airalo $11.50, Holafly $11.90 (거의 같음).
+  - **무제한, 7~30일**: 확인한 가격으로는 Airalo가 Holafly보다 저렴했습니다(예: 30일 $69.00 대 $73.90).
+  - **핫스팟을 많이 쓴다면**: Holafly는 테더링이 하루 1GB로 제한됩니다.
+  - 세 곳 모두 **도착 후 데이터 로밍을 켜야** 동작한다는 점이 공통입니다. 개통이 안 될 때 가장 먼저 확인하세요.
+
+  ## 개통이 안 될 때 기본 점검 (Saily 공식 FAQ 요약)
+
+  1. 휴대폰이 eSIM을 지원하는지(통신사 잠금 여부 포함) 확인
+  2. 휴대폰 재시작
+  3. 설정에서 해당 eSIM 회선이 켜져 있는지 확인
+  4. 해당 eSIM 회선의 데이터 로밍이 켜져 있는지 확인
+unverified:
+  - "Airalo·Saily 환불 규정: 일본 상품 페이지에 없어 표에 '미확인'으로 표시. 각 사 약관/도움말 페이지 확인 후 업데이트 필요."
+  - "Airalo 정액 데이터 요금제 가격, 그리고 SoftBank 외 '+1' 추가 통신망 이름."
+  - "Saily 공식 FAQ에 '1GB 7일 $3.99'와 '무제한 7일 $3.99'라는 서로 다른 문구가 함께 있어, 표에는 요금표에 나온 1GB/7일 $3.99만 실었습니다."
+  - "Holafly는 같은 페이지 상단에 '€3.79부터'라는 표시가 있으나 해당 요금제(일수)는 확인 못 함. 1~90일 선택 가능하다고 하나 표에는 가격표에 있는 6개 구간만 실음."
+  - "실측 속도·실제 개통 테스트는 하지 않았습니다(모두 공식 페이지 기재 내용)."
+sources:
+  - {label: "Airalo 일본 eSIM 공식 페이지", url: "https://www.airalo.com/japan-esim", checked: "2026-10-22"}
+  - {label: "Saily 일본 eSIM 공식 페이지", url: "https://saily.com/esim-japan/", checked: "2026-10-22"}
+  - {label: "Holafly 일본 eSIM 공식 페이지 (가격표·FAQ·환불 안내)", url: "https://esim.holafly.com/esim-japan/", checked: "2026-10-22"}

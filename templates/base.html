@@ -1,0 +1,13 @@
+<!doctype html><html lang="ko"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>{{ page_title }}{% if path != "/" %} | {{ site.title }}{% endif %}</title>
+<meta name="description" content="{{ page_desc }}">
+<link rel="canonical" href="{{ site.base_url.rstrip('/') }}{{ path }}">
+<meta property="og:title" content="{{ page_title }}"><meta property="og:description" content="{{ page_desc }}">
+<meta property="og:type" content="article"><meta property="og:locale" content="ko_KR">
+<meta property="og:url" content="{{ site.base_url.rstrip('/') }}{{ path }}">
+<link rel="stylesheet" href="{{ root }}/static/style.css"></head><body>
+<header><a href="{{ root }}/">{{ site.title }}</a> · <a href="{{ root }}/disclosure/">제휴 고지</a></header>
+<main>{% block body %}{% endblock %}</main>
+<footer>이 사이트의 일부 링크는 제휴 링크일 수 있습니다. <a href="{{ root }}/disclosure/">자세히</a> · 가격은 확인 시점 기준이며 변동될 수 있습니다.</footer>
+</body></html>

@@ -1,0 +1,15 @@
+{% extends "base.html" %}{% block body %}
+<h1>{{ c.title }}</h1>
+<p class="note">📌 <a href="{{ root }}/disclosure/">제휴 고지</a>: 아래 "구매 링크"는 제휴 링크(현재 자리표시자)입니다. 순위·내용은 수수료와 무관하게 공식 페이지 정보로만 작성했습니다.</p>
+<p>가격 확인일: <b>{{ c.verified_on }}</b> (USD, 공식 사이트 표시가 기준. 환율·프로모션에 따라 달라질 수 있음)</p>
+{{ c.intro | md | safe }}
+<h2>한눈에 비교</h2>
+<div class="scroll"><table><thead><tr><th>제공사</th><th>가격 (예시 요금제)</th><th>데이터</th><th>통신망</th><th>환불 규정</th><th>기기·사용 메모</th><th>출처</th><th>구매</th></tr></thead><tbody>
+{% for p in c.providers %}<tr><td><b>{{ p.name }}</b></td><td>{{ p.price | md | safe }}</td><td>{{ p.data | md | safe }}</td><td>{{ p.network }}</td><td>{{ p.refund | md | safe }}</td><td>{{ p.device_notes | md | safe }}</td>
+<td>{% for s in p.sources %}<a href="{{ s }}" rel="nofollow">[{{ loop.index }}]</a> {% endfor %}</td>
+<td><a class="aff" href="{{ site.affiliate[p.key] }}" rel="sponsored nofollow">구매 링크 (제휴·자리표시자)</a></td></tr>{% endfor %}
+</tbody></table></div>
+{{ c.body | md | safe }}
+{% if c.unverified %}<h2>⚠️ 확인하지 못한 정보</h2><ul>{% for u in c.unverified %}<li>{{ u }}</li>{% endfor %}</ul>{% endif %}
+<h2>출처</h2><ol>{% for s in c.sources %}<li><a href="{{ s.url }}" rel="nofollow">{{ s.label }}</a> ({{ s.checked }} 확인)</li>{% endfor %}</ol>
+{% endblock %}

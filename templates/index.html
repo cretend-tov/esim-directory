@@ -1,0 +1,5 @@
+{% extends "base.html" %}{% block body %}
+<h1>{{ site.title }}</h1><p>{{ site.description }}</p>
+<h2>나라별 eSIM 비교</h2><ul>{% for c in countries %}<li><a href="{{ root }}{{ c.url }}">{{ c.flag }} {{ c.country }}</a> — 확인일 {{ c.verified_on }}</li>{% endfor %}</ul>
+<h2>문제 해결 가이드</h2><ul>{% for g in guides %}<li><a href="{{ root }}{{ g.url }}">{{ g.title }}</a></li>{% else %}<li>준비 중</li>{% endfor %}</ul>
+{% endblock %}
