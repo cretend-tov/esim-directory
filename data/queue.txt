@@ -4,7 +4,7 @@
 [x] 2026-10-24 guide | 일본 | 도착했는데 eSIM이 자동 개통 안 될 때
 [x] 2026-10-25 country | 태국 | 태국 eSIM 비교
 [x] 2026-10-26 guide | 태국 | 핫스팟(테더링) 제한 비교
-country | 베트남 | 베트남 eSIM 비교
+[x] 2026-10-27 country | 베트남 | 베트남 eSIM 비교
 guide | 베트남 | 시골·섬 지역에서 신호 없을 때
 country | 미국 | 미국 eSIM 비교
 guide | 미국 | 전화번호 포함 eSIM이 필요할 때
