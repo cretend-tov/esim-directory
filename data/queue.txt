@@ -10,7 +10,7 @@
 [x] 2026-10-30 guide | 미국 | 전화번호 포함 eSIM이 필요할 때
 [x] 2026-10-31 country | 중국 | 중국 eSIM 비교
 [x] 2026-11-01 guide | 중국 | 카카오톡·구글 접속 문제(정보 확인 가능한 범위만)
-country | 필리핀 | 필리핀 eSIM 비교
+[x] 2026-11-02 country | 필리핀 | 필리핀 eSIM 비교
 guide | 공통 | eSIM QR 코드 삭제·분실 시 재설치 가능 여부
 country | 싱가포르 | 싱가포르 eSIM 비교
 guide | 공통 | 여행 취소 시 eSIM 환불 규정 3사 비교
