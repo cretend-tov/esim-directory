@@ -12,7 +12,7 @@
 [x] 2026-11-01 guide | 중국 | 카카오톡·구글 접속 문제(정보 확인 가능한 범위만)
 [x] 2026-11-02 country | 필리핀 | 필리핀 eSIM 비교
 [x] 2026-11-03 guide | 공통 | eSIM QR 코드 삭제·분실 시 재설치 가능 여부
-country | 싱가포르 | 싱가포르 eSIM 비교
+[x] 2026-11-04 country | 싱가포르 | 싱가포르 eSIM 비교
 guide | 공통 | 여행 취소 시 eSIM 환불 규정 3사 비교
 country | 프랑스 | 프랑스 eSIM 비교
 guide | 유럽 | 여러 나라 여행할 때 지역 eSIM vs 국가별 eSIM
