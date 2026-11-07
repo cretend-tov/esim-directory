@@ -15,7 +15,7 @@
 [x] 2026-11-04 country | 싱가포르 | 싱가포르 eSIM 비교
 [x] 2026-11-05 guide | 공통 | 여행 취소 시 eSIM 환불 규정 3사 비교
 [x] 2026-11-06 country | 프랑스 | 프랑스 eSIM 비교
-guide | 유럽 | 여러 나라 여행할 때 지역 eSIM vs 국가별 eSIM
+[x] 2026-11-07 guide | 유럽 | 여러 나라 여행할 때 지역 eSIM vs 국가별 eSIM
 country | 호주 | 호주 eSIM 비교
 guide | 공통 | 내 폰이 eSIM 지원하는지 확인하는 법(통신사 잠금 포함)
 country | 튀르키예 | 튀르키예 eSIM 비교
