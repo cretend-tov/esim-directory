@@ -16,7 +16,7 @@
 [x] 2026-11-05 guide | 공통 | 여행 취소 시 eSIM 환불 규정 3사 비교
 [x] 2026-11-06 country | 프랑스 | 프랑스 eSIM 비교
 [x] 2026-11-07 guide | 유럽 | 여러 나라 여행할 때 지역 eSIM vs 국가별 eSIM
-country | 호주 | 호주 eSIM 비교
+[x] 2026-11-08 country | 호주 | 호주 eSIM 비교
 guide | 공통 | 내 폰이 eSIM 지원하는지 확인하는 법(통신사 잠금 포함)
 country | 튀르키예 | 튀르키예 eSIM 비교
 guide | 일본 | 무제한 요금제 속도 제한(FUP) 비교
@@ -27,3 +27,12 @@ guide | 공통 | 여행 중 eSIM이 갑자기 끊겼을 때 환불·재발급 �
 country | 말레이시아 | 말레이시아 eSIM 비교
 guide | 프랑스 | 외곽·노르망디·알프스에서 신호가 약할 때(통신망별 차이)
 guide | 공통 | 듀얼심 데이터 전환(data switching) 때문에 여행 eSIM이 안 될 때
+country | 이탈리아 | 이탈리아 eSIM 비교
+guide | 이탈리아 | 도착했는데 eSIM이 안 되고 통신망이 안 잡힐 때(수동 선택)
+country | 영국 | 영국 eSIM 비교
+guide | 영국 | 통신망이 계속 바뀌거나 SOS만 뜰 때
+country | 인도네시아 | 인도네시아 eSIM 비교
+guide | 호주 | 오웃백·국립공원·태즈메이니아에서 신호가 약할 때
+country | 스페인 | 스페인 eSIM 비교
+country | 뉴질랜드 | 뉴질랜드 eSIM 비교
+guide | 공통 | 제공사 장애로 데이터가 한꺼번에 끊겼을 때
