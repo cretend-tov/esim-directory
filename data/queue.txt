@@ -27,7 +27,7 @@
 [x] 2026-11-15 country | 말레이시아 | 말레이시아 eSIM 비교
 [x] 2026-11-16 guide | 프랑스 | 외곽·노르망디·알프스에서 신호가 약할 때(통신망별 차이)
 [x] 2026-11-17 guide | 공통 | 듀얼심 데이터 전환(data switching) 때문에 여행 eSIM이 안 될 때
-country | 이탈리아 | 이탈리아 eSIM 비교
+[x] 2026-11-18 country | 이탈리아 | 이탈리아 eSIM 비교
 guide | 이탈리아 | 도착했는데 eSIM이 안 되고 통신망이 안 잡힐 때(수동 선택)
 country | 영국 | 영국 eSIM 비교
 guide | 영국 | 통신망이 계속 바뀌거나 SOS만 뜰 때
